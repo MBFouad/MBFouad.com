@@ -30,6 +30,34 @@ class InsertSettingData extends Migration
                 'value' => 'MBFouad',
             )
         );
+        $setting->create(
+            array(
+                'name' => 'Main Image',
+                'identify' => 'main-image',
+                'value' => 'slider_01.jpeg',
+            )
+        );
+        $setting->create(
+            array(
+                'name' => 'First Hash Tag',
+                'identify' => 'first-hash-tag',
+                'value' => '#fullstack',
+            )
+        );
+        $setting->create(
+            array(
+                'name' => 'Second Hash Tag',
+                'identify' => 'second-hash-tag',
+                'value' => '#php',
+            )
+        );
+        $setting->create(
+            array(
+                'name' => 'Slider Main Title',
+                'identify' => 'slider-main-title',
+                'value' => 'Hello fellas, I’m a freelance',
+            )
+        );
     }
 
     /**
