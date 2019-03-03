@@ -5,64 +5,7 @@
 
 
     <!--About Section-->
-    <section id="about" class="about bg-light roomy-150">
-        <div class="container">
-            <div class="row">
-                <div class="main_about">
-                    <div class="col-md-5 col-md-offset-1">
-                        <div class="about_content">
-                            <div class="head_right">
-                                <h2>About me</h2>
-                            </div>
-                            <div class="about_content_text">
-                                <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                                    Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues
-                                    differe solmen in li grammatic.</p>
-
-                                <div class="divider1 m-top-10"></div>
-
-                                <div class="about_content_item m-top-30">
-                                    <h6><i class="fa fa-graduation-cap"></i> Education History</h6>
-                                    <ul>
-                                        <li><a href=""><i class="fa fa-chevron-right"></i>School of Design</a></li>
-                                    </ul>
-                                </div>
-                                <div class="about_content_item m-top-20">
-                                    <h6><i class="fa fa-briefcase"></i> Work Experiences</h6>
-                                    <ul>
-                                        <li><i class="fa fa-chevron-right"></i>London Studio | 2012</li>
-                                        <li><i class="fa fa-chevron-right"></i>Envato Designer | 2013</li>
-                                        <li><i class="fa fa-chevron-right"></i>Dribbble | 2015</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End off col-md-6 -->
-
-                    <div class="col-md-5 col-md-offset-1 sm-m-top-50">
-                        <div class="head_title text-right">
-                            <h5><span class="divider"></span> my name is john doe</h5>
-                        </div>
-                        <div class="about_left_item m-top-50">
-                            <img src="{{asset('images/about-img1.jpg')}}" alt=""/>
-                        </div>
-
-                        <div class="about_socail m-top-50">
-                            <ul class="list-inline">
-                                <li><span class="divider"></span></li>
-                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                                <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href=""><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div><!-- End off col-md-6 -->
-
-                </div><!-- End off Main About -->
-
-            </div><!-- End off row -->
-        </div><!-- End off container -->
-    </section><!-- End off About us Section -->
+    @include('home._about')
 
 
     <!--Portfolio Section-->
