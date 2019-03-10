@@ -13,3 +13,11 @@ function getSliderImage($pic)
     }
     return url('images/shadow-img.png');
 }
+
+function getProjectImage($pic)
+{
+    if (File::exists('uploads/project/' . $pic)) {
+        return url('uploads/project/' . $pic);
+    }
+    return url('images/clogo1.png');
+}

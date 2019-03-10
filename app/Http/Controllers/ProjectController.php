@@ -10,15 +10,13 @@ use App\Models\Menus;
 use App\Models\Paragraphs;
 
 
-class HomeController extends Controller
+class ProjectController extends Controller
 {
     public function index(Request $request)
     {
         $paragraphs = Paragraphs::getParagraphs();
-        $educations = EducationHistory::all();
-        $experiences = WorkExperiences::orderBy('start_date')->get();
-        $projects = Projects::take(3)->orderBy('sort')->get();
-        return view('home.index', compact('paragraphs', 'educations', 'experiences','projects'));
+        $projects = Projects::orderBy('sort')->get();
+        return view('project.index', compact('paragraphs','projects'));
 
     }
 }
