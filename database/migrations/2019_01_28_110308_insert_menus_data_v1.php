@@ -37,6 +37,43 @@ class InsertMenusDataV1 extends Migration
                 'order' => 1,
             )
         );
+        $menu->create(
+            array(
+                'name' => 'About',
+                'hash' => 'about',
+                'is_clickable' => 1,
+                'parent_menu_id' => $parentId,
+                'order' => 2,
+            )
+        );
+        $menu->create(
+            array(
+                'name' => 'Portfolio',
+                'hash' => 'portfolio',
+                'is_clickable' => 1,
+                'parent_menu_id' => $parentId,
+                'order' => 3,
+            )
+        );
+        $menu->create(
+            array(
+                'name' => 'Additional Links',
+                'is_clickable' => 0,
+                'parent_menu_id' => null,
+                'order' => 2,
+            )
+        );
+        $parentAdditionalLinksId = $menu->id;
+        $menu->create(
+            array(
+                'name' => 'Project',
+                'is_clickable' => 1,
+                'link' => route('projectIndex'),
+                'parent_menu_id' => $parentAdditionalLinksId,
+                'order' => 1,
+            )
+        );
+
     }
 
     /**

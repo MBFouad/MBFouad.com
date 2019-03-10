@@ -22,6 +22,13 @@ class InsertParagraphsData extends Migration
                 'value' => 'I am Mohamed, Web Programmer for 5+ years. develop and support my work, I take work that I can complete. I am flexible and love to finish my work, take 100% responsibility of tasks. Have solid understanding:- Page execution, DOM events and manipulation, Cross browser issues. UI/UX standards,  customizable website, seo, plugin development, popups, analytics, performance improvements etc. ',
             )
         );
+        $paragraph->create(
+            array(
+                'name' => 'Portfolio Description',
+                'identify' => 'portfolio-description',
+                'value' => 'This section show which projects I was part of it as freelancer or as team member in my previous  companies or  current company.',
+            )
+        );
     }
 
     /**
