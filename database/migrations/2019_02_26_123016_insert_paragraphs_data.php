@@ -29,6 +29,13 @@ class InsertParagraphsData extends Migration
                 'value' => 'This section show which projects I was part of it as freelancer or as team member in my previous  companies or  current company.',
             )
         );
+        $paragraph->create(
+            array(
+                'name' => 'Contact Us Description',
+                'identify' => 'contact-us-description',
+                'value' => 'Fell free to contact me if you have any freelance project as from scratch or need some edit in exists one, of course you can contact me too for any future advices .',
+            )
+        );
     }
 
     /**

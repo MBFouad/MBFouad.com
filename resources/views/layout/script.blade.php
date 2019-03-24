@@ -9,3 +9,8 @@
 
 <script src="{{asset('js/plugins.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
+@if (env('APP_ENV') == 'local')
+    <script src="https://www.google.com/recaptcha/api.js?hl=en"
+            type="text/javascript" async defer></script>
+    <script src="{{asset('js/recaptcha.js')}}"></script>
+@endif

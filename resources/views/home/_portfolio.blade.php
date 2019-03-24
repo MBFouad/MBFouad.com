@@ -1,4 +1,4 @@
-<section id="portfolio" class="portfolio bg-white roomy-150">
+<section id="portfolio" class="portfolio bg-white roomy-50">
     <div class="container">
         <div class="row">
             <div class="main_portfolio">
