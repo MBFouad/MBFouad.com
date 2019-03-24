@@ -58,6 +58,27 @@ class InsertSettingData extends Migration
                 'value' => 'Hello fellas, I’m a freelance',
             )
         );
+        $setting->create(
+            array(
+                'name' => 'Address',
+                'identify' => 'contact-us-address',
+                'value' => 'Cairo,Egypt',
+            )
+        );
+        $setting->create(
+            array(
+                'name' => 'Phone',
+                'identify' => 'contact-us-phone',
+                'value' => '+20 1093252758',
+            )
+        );
+        $setting->create(
+            array(
+                'name' => 'Email',
+                'identify' => 'contact-us-email',
+                'value' => 'contact@mbfouad.com',
+            )
+        );
     }
 
     /**

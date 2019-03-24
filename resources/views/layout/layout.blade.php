@@ -38,6 +38,7 @@
     </nav>
 
 @yield('content')
+    {{--@include('layout.hidden')--}}
 </div>
 @include('layout.script')
 </body>
