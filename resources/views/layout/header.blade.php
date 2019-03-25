@@ -10,7 +10,7 @@
     <!-- Start Header Navigation -->
     <div class="navbar-header">
 
-        <a class="navbar-brand" href="#brand">
+        <a class="navbar-brand" href="{{route('homeIndex')}}">
             {{$settings['website-logo']->value}}
         </a>
 
