@@ -57,7 +57,7 @@ class Menus extends Model
     public function toArray()
     {
         if ($this->hash) {
-            $this->url = '#' . $this->hash;
+            $this->url = route('homeIndex').'/#' . $this->hash;
         } elseif ($this->is_clickable) {
             $this->url = $this->link;
         }
