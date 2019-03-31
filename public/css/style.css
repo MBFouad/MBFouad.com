@@ -1026,12 +1026,12 @@ Home Section style
     background: url(../images/homebg.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
-    height: 1000px;
+    height: 100vh;
 }
 
 .main_home {
     overflow: hidden;
-    padding-top: 350px;
+    padding-top: 0px;
     padding-bottom: 450px;
 }
 
@@ -1040,10 +1040,14 @@ Home Section style
 }
 
 .home-shadow img {
-    width: 70%;
+    width: 60%;
     position: absolute;
     right: 0;
-    top: 0px;
+    top: 73px;
+}
+
+.text-slider {
+    margin-top: 143px;
 }
 
 .home_text h1 {
@@ -1140,7 +1144,7 @@ Home Section style
     color: #FFF;
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-    margin-top: 35%;
+    margin-top: 5%;
     text-decoration: none;
     overflow: hidden;
 }
