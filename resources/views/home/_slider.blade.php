@@ -7,14 +7,14 @@
                         <img src="{{ getSliderImage($settings['main-image']->value)}}" alt=""/>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 text-slider">
                     <div class="home_text text-left">
                         <h4>{{$settings['slider-main-title']->value}}</h4>
                         <h1 class="text-black">{{$settings['first-hash-tag']->value}}</h1>
                         <h1 class="text-black">{{$settings['second-hash-tag']->value}}</h1>
                     </div>
 
-                    <div class="home_btns m-top-40 text-center">
+                    <div class="home_btns m-top-30 text-center">
                         <a href="" class="btn btn-primary m-top-20">about me</a>
                     </div>
 
