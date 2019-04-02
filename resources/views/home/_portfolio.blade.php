@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="main_portfolio">
-                <div class="col-md-5">
+                <div class="col-md-5 hidden-sm hidden-xs">
                     <div class="portfolio_item">
                         <div class="head_title">
                             <h5><span class="divider"></span> my latest works</h5>
@@ -26,7 +26,7 @@
                     </div>
                 </div><!-- End off col-md-6  -->
 
-                <div class="col-md-6 col-md-offset-1 sm-m-top-50">
+                <div class="col-md-6 col-md-offset-1 sm-m-top-50 col-sm-12">
                     <div class="portfolio_content">
                         <div class="head_right">
                             <h2>portfolio</h2>
@@ -42,11 +42,14 @@
                             <h5><span class="divider"></span> my clients</h5>
                         </div>
                         <div class="client_brand m-top-60 text-right">
-                            <ul class="list-inline">
+                            <div class=" row">
                                 @foreach($projects as $project )
-                                    <li><img style="width: 87px;" src="{{getProjectImage($project->image)}}" alt="{{$project->name}}"/></li>
+                                    <div class="col-md-4 col-sm-4 col-xs-4"><img style="width: 87px;"
+                                                               src="{{getProjectImage($project->image)}}"
+                                                               alt="{{$project->name}}"/></div>
                                 @endforeach
-                            </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div><!-- End off col-md-6  -->
