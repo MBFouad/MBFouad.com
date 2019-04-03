@@ -1,7 +1,9 @@
 <head>
     <meta charset="utf-8">
     <title>{{$settings['website-name']->value}}</title>
-    <meta name="description" content="">
+    <meta name="description" content="MBFouad.com is portfolio website have my education background and my work experiences,also you can contact mohamed bahaa fouad ">
+    <meta name="keywords" content="MBFouad.com mohamed bahaa fouad MBFouad mbfouad.com mbfouad"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.ico">
 
