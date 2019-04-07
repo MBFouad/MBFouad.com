@@ -38,7 +38,7 @@
                         <h5><span class="divider"></span> my name is {{$settings['website-name']->value}}</h5>
                     </div>
                     <div class="about_left_item m-top-50">
-                        <img src="{{asset('images/about-img1.jpg')}}" alt=""/>
+                        <img src="{{asset('images/about-img1.png')}}" alt=""/>
                     </div>
 
                     <div class="about_socail m-top-50">
